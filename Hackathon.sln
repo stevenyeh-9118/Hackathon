@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-ChangeNumber", "01-ChangeNumber\01-ChangeNumber.csproj", "{D3781252-FA02-4729-BE94-E755DF412811}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-CountIndividualStrings", "03\03-CountIndividualStrings.csproj", "{70D96174-96ED-4AE1-8645-A06313691348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-TemperatureConversion", "02-TemperatureConversion\02-TemperatureConversion.csproj", "{FAB1CDF3-8D7D-4299-AA7A-572C7E55A7E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{70D96174-96ED-4AE1-8645-A06313691348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70D96174-96ED-4AE1-8645-A06313691348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70D96174-96ED-4AE1-8645-A06313691348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB1CDF3-8D7D-4299-AA7A-572C7E55A7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB1CDF3-8D7D-4299-AA7A-572C7E55A7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB1CDF3-8D7D-4299-AA7A-572C7E55A7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB1CDF3-8D7D-4299-AA7A-572C7E55A7E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
