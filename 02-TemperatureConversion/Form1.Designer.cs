@@ -28,55 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
-            rbtnCtoF = new RadioButton();
-            rbtnFtoC = new RadioButton();
-            txtInput = new MaskedTextBox();
-            lblResult = new Label();
-            btnConvert = new Button();
-            btnClear = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
+            groupBox1 = new System.Windows.Forms.GroupBox();
+            rbtnCtoF = new System.Windows.Forms.RadioButton();
+            rbtnFtoC = new System.Windows.Forms.RadioButton();
+            txtInput = new System.Windows.Forms.MaskedTextBox();
+            lblResult = new System.Windows.Forms.Label();
+            btnConvert = new System.Windows.Forms.Button();
+            btnClear = new System.Windows.Forms.Button();
+            btn1 = new System.Windows.Forms.Button();
+            btn2 = new System.Windows.Forms.Button();
+            btn3 = new System.Windows.Forms.Button();
+            btn4 = new System.Windows.Forms.Button();
+            btn5 = new System.Windows.Forms.Button();
+            btn6 = new System.Windows.Forms.Button();
+            btn7 = new System.Windows.Forms.Button();
+            btn8 = new System.Windows.Forms.Button();
+            btn9 = new System.Windows.Forms.Button();
+            btn0 = new System.Windows.Forms.Button();
+            btnDot = new System.Windows.Forms.Button();
             groupBox1.SuspendLayout();
-            SuspendLayout();
+            this.SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(rbtnFtoC);
             groupBox1.Controls.Add(rbtnCtoF);
-            groupBox1.Location = new Point(12, 142);
+            groupBox1.Location = new System.Drawing.Point(12, 142);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(236, 158);
+            groupBox1.Size = new System.Drawing.Size(236, 158);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
             // rbtnCtoF
             // 
             rbtnCtoF.AutoSize = true;
-            rbtnCtoF.Location = new Point(64, 40);
+            rbtnCtoF.Location = new System.Drawing.Point(64, 40);
             rbtnCtoF.Name = "rbtnCtoF";
-            rbtnCtoF.Size = new Size(85, 19);
+            rbtnCtoF.Size = new System.Drawing.Size(85, 19);
             rbtnCtoF.TabIndex = 0;
             rbtnCtoF.TabStop = true;
             rbtnCtoF.Text = "攝氏轉華氏";
             rbtnCtoF.UseVisualStyleBackColor = true;
-            rbtnCtoF.CheckedChanged += radioButton1_CheckedChanged;
+            rbtnCtoF.CheckedChanged += this.radioButton1_CheckedChanged;
             // 
             // rbtnFtoC
             // 
             rbtnFtoC.AutoSize = true;
-            rbtnFtoC.Location = new Point(64, 100);
+            rbtnFtoC.Location = new System.Drawing.Point(64, 100);
             rbtnFtoC.Name = "rbtnFtoC";
-            rbtnFtoC.Size = new Size(85, 19);
+            rbtnFtoC.Size = new System.Drawing.Size(85, 19);
             rbtnFtoC.TabIndex = 1;
             rbtnFtoC.TabStop = true;
             rbtnFtoC.Text = "華氏轉攝氏";
@@ -84,177 +84,177 @@
             // 
             // txtInput
             // 
-            txtInput.Location = new Point(513, 142);
+            txtInput.Location = new System.Drawing.Point(513, 142);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(235, 23);
+            txtInput.Size = new System.Drawing.Size(235, 23);
             txtInput.TabIndex = 1;
             // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(513, 249);
+            lblResult.Location = new System.Drawing.Point(513, 249);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(34, 15);
+            lblResult.Size = new System.Drawing.Size(34, 15);
             lblResult.TabIndex = 2;
             lblResult.Text = "結果:";
             // 
             // btnConvert
             // 
-            btnConvert.BackColor = SystemColors.AppWorkspace;
-            btnConvert.Location = new Point(513, 187);
+            btnConvert.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btnConvert.Location = new System.Drawing.Point(513, 187);
             btnConvert.Name = "btnConvert";
-            btnConvert.Size = new Size(72, 38);
+            btnConvert.Size = new System.Drawing.Size(72, 38);
             btnConvert.TabIndex = 3;
             btnConvert.Text = "轉換";
             btnConvert.UseVisualStyleBackColor = false;
             // 
             // btnClear
             // 
-            btnClear.BackColor = SystemColors.AppWorkspace;
-            btnClear.Location = new Point(603, 187);
+            btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btnClear.Location = new System.Drawing.Point(603, 187);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(72, 38);
+            btnClear.Size = new System.Drawing.Size(72, 38);
             btnClear.TabIndex = 4;
             btnClear.Text = "清除";
             btnClear.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btn1
             // 
-            button1.BackColor = SystemColors.AppWorkspace;
-            button1.Location = new Point(309, 143);
-            button1.Name = "button1";
-            button1.Size = new Size(38, 38);
-            button1.TabIndex = 5;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = false;
+            btn1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn1.Location = new System.Drawing.Point(309, 143);
+            btn1.Name = "btn1";
+            btn1.Size = new System.Drawing.Size(38, 38);
+            btn1.TabIndex = 5;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn2
             // 
-            button2.BackColor = SystemColors.AppWorkspace;
-            button2.Location = new Point(353, 143);
-            button2.Name = "button2";
-            button2.Size = new Size(38, 38);
-            button2.TabIndex = 6;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = false;
+            btn2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn2.Location = new System.Drawing.Point(353, 143);
+            btn2.Name = "btn2";
+            btn2.Size = new System.Drawing.Size(38, 38);
+            btn2.TabIndex = 6;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn3
             // 
-            button3.BackColor = SystemColors.AppWorkspace;
-            button3.Location = new Point(397, 143);
-            button3.Name = "button3";
-            button3.Size = new Size(38, 38);
-            button3.TabIndex = 7;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = false;
+            btn3.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn3.Location = new System.Drawing.Point(397, 143);
+            btn3.Name = "btn3";
+            btn3.Size = new System.Drawing.Size(38, 38);
+            btn3.TabIndex = 7;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn4
             // 
-            button4.BackColor = SystemColors.AppWorkspace;
-            button4.Location = new Point(309, 187);
-            button4.Name = "button4";
-            button4.Size = new Size(38, 38);
-            button4.TabIndex = 8;
-            button4.Text = "4";
-            button4.UseVisualStyleBackColor = false;
+            btn4.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn4.Location = new System.Drawing.Point(309, 187);
+            btn4.Name = "btn4";
+            btn4.Size = new System.Drawing.Size(38, 38);
+            btn4.TabIndex = 8;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btn5
             // 
-            button5.BackColor = SystemColors.AppWorkspace;
-            button5.Location = new Point(353, 187);
-            button5.Name = "button5";
-            button5.Size = new Size(38, 38);
-            button5.TabIndex = 9;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = false;
+            btn5.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn5.Location = new System.Drawing.Point(353, 187);
+            btn5.Name = "btn5";
+            btn5.Size = new System.Drawing.Size(38, 38);
+            btn5.TabIndex = 9;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btn6
             // 
-            button6.BackColor = SystemColors.AppWorkspace;
-            button6.Location = new Point(397, 187);
-            button6.Name = "button6";
-            button6.Size = new Size(38, 38);
-            button6.TabIndex = 10;
-            button6.Text = "6";
-            button6.UseVisualStyleBackColor = false;
+            btn6.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn6.Location = new System.Drawing.Point(397, 187);
+            btn6.Name = "btn6";
+            btn6.Size = new System.Drawing.Size(38, 38);
+            btn6.TabIndex = 10;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btn7
             // 
-            button7.BackColor = SystemColors.AppWorkspace;
-            button7.Location = new Point(309, 231);
-            button7.Name = "button7";
-            button7.Size = new Size(38, 38);
-            button7.TabIndex = 11;
-            button7.Text = "7";
-            button7.UseVisualStyleBackColor = false;
+            btn7.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn7.Location = new System.Drawing.Point(309, 231);
+            btn7.Name = "btn7";
+            btn7.Size = new System.Drawing.Size(38, 38);
+            btn7.TabIndex = 11;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btn8
             // 
-            button8.BackColor = SystemColors.AppWorkspace;
-            button8.Location = new Point(353, 231);
-            button8.Name = "button8";
-            button8.Size = new Size(38, 38);
-            button8.TabIndex = 12;
-            button8.Text = "8";
-            button8.UseVisualStyleBackColor = false;
+            btn8.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn8.Location = new System.Drawing.Point(353, 231);
+            btn8.Name = "btn8";
+            btn8.Size = new System.Drawing.Size(38, 38);
+            btn8.TabIndex = 12;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btn9
             // 
-            button9.BackColor = SystemColors.AppWorkspace;
-            button9.Location = new Point(397, 231);
-            button9.Name = "button9";
-            button9.Size = new Size(38, 38);
-            button9.TabIndex = 13;
-            button9.Text = "9";
-            button9.UseVisualStyleBackColor = false;
+            btn9.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn9.Location = new System.Drawing.Point(397, 231);
+            btn9.Name = "btn9";
+            btn9.Size = new System.Drawing.Size(38, 38);
+            btn9.TabIndex = 13;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btn0
             // 
-            button10.BackColor = SystemColors.AppWorkspace;
-            button10.Location = new Point(309, 275);
-            button10.Name = "button10";
-            button10.Size = new Size(38, 38);
-            button10.TabIndex = 14;
-            button10.Text = "0";
-            button10.UseVisualStyleBackColor = false;
+            btn0.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btn0.Location = new System.Drawing.Point(309, 275);
+            btn0.Name = "btn0";
+            btn0.Size = new System.Drawing.Size(38, 38);
+            btn0.TabIndex = 14;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // btnDot
             // 
-            button11.BackColor = SystemColors.AppWorkspace;
-            button11.Location = new Point(353, 275);
-            button11.Name = "button11";
-            button11.Size = new Size(38, 38);
-            button11.TabIndex = 15;
-            button11.Text = ".";
-            button11.UseVisualStyleBackColor = false;
+            btnDot.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            btnDot.Location = new System.Drawing.Point(353, 275);
+            btnDot.Name = "btnDot";
+            btnDot.Size = new System.Drawing.Size(38, 38);
+            btnDot.TabIndex = 15;
+            btnDot.Text = ".";
+            btnDot.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(btnClear);
-            Controls.Add(btnConvert);
-            Controls.Add(lblResult);
-            Controls.Add(txtInput);
-            Controls.Add(groupBox1);
-            Name = "Form1";
-            Text = "Form1";
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(btnDot);
+            this.Controls.Add(btn0);
+            this.Controls.Add(btn9);
+            this.Controls.Add(btn8);
+            this.Controls.Add(btn7);
+            this.Controls.Add(btn6);
+            this.Controls.Add(btn5);
+            this.Controls.Add(btn4);
+            this.Controls.Add(btn3);
+            this.Controls.Add(btn2);
+            this.Controls.Add(btn1);
+            this.Controls.Add(btnClear);
+            this.Controls.Add(btnConvert);
+            this.Controls.Add(lblResult);
+            this.Controls.Add(txtInput);
+            this.Controls.Add(groupBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
@@ -266,16 +266,16 @@
         private Label lblResult;
         private Button btnConvert;
         private Button btnClear;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
+        private Button btn1;
+        private Button btn2;
+        private Button btn3;
+        private Button btn4;
+        private Button btn5;
+        private Button btn6;
+        private Button btn7;
+        private Button btn8;
+        private Button btn9;
+        private Button btn0;
+        private Button btnDot;
     }
 }
