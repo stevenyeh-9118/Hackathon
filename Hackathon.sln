@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-ProgressiveTaxRates", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-TemperatureConversion", "02-TemperatureConversion\02-TemperatureConversion.csproj", "{F38E0432-790B-456D-B903-64F95A541725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-GuessNumber", "04-GuessNumber\04-GuessNumber.csproj", "{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F38E0432-790B-456D-B903-64F95A541725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F38E0432-790B-456D-B903-64F95A541725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F38E0432-790B-456D-B903-64F95A541725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
