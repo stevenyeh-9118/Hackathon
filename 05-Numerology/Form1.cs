@@ -2,11 +2,7 @@
 {
     public partial class Form1 : Form
     {
-        private string[] zodiacNames = {
-            "Capricorn", "Aquarius", "Pisces", "Aries", "Taurus",
-            "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius" };
 
-        private int[] zodiacStartDays = { 20, 19, 21, 21, 21, 22, 23, 23, 23, 23, 23, 22 };
 
         public Form1()
         {
@@ -76,23 +72,37 @@
 
             string text = File.ReadAllText(file);
 
-            
-            int start = text.IndexOf($"【{zodiac.Split(' ')[0]}");
-            if (start == -1) return "❌ 找不到對應星座。";
+            // 先去除所有空白
+            text = text.Replace(" ", "").Replace("\t", "");
 
+            
+            string engName = zodiac.Split(' ')[0]; 
+            string zhName = zodiac.Split(' ')[1];  
+
+            
+            int start = text.IndexOf($"【{engName}{zhName}");
+            if (start == -1)
+                start = text.IndexOf($"【{zhName}{engName}");
+
+            if (start == -1)
+                return $"❌ 找不到對應星座 ({zodiac})，請確認文字檔格式是否正確。";
+
+            
             int next = text.IndexOf("【", start + 1);
             string section = (next > 0) ? text.Substring(start, next - start) : text.Substring(start);
 
             
             string key = $"生命靈數{lifeNum}：";
             int kStart = section.IndexOf(key);
-            if (kStart == -1) return "❌ 找不到生命靈數內容。";
+            if (kStart == -1)
+                return "❌ 找不到生命靈數內容。";
 
             int kEnd = section.IndexOf("生命靈數", kStart + key.Length);
             string content = (kEnd > 0) ? section.Substring(kStart, kEnd - kStart) : section.Substring(kStart);
 
             return content.Trim();
         }
+
     }
 }
     
