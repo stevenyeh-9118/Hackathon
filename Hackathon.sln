@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-TemperatureConversion", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-GuessNumber", "04-GuessNumber\04-GuessNumber.csproj", "{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Numerology", "05-Numerology\05-Numerology.csproj", "{16C4150E-F29E-447F-A592-9164E874E9DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CA6BF0F-D776-4DEA-8A60-CB5A2358E784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C4150E-F29E-447F-A592-9164E874E9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C4150E-F29E-447F-A592-9164E874E9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C4150E-F29E-447F-A592-9164E874E9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C4150E-F29E-447F-A592-9164E874E9DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
