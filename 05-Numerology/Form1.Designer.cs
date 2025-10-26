@@ -76,7 +76,8 @@
             // txtResult
             // 
             txtResult.BackColor = SystemColors.ControlLightLight;
-            txtResult.Location = new Point(437, 117);
+            txtResult.ForeColor = SystemColors.WindowText;
+            txtResult.Location = new Point(437, 107);
             txtResult.Multiline = true;
             txtResult.Name = "txtResult";
             txtResult.Size = new Size(301, 273);
